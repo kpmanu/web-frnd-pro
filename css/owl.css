@@ -1,0 +1,57 @@
+
+.owl-carousel .owl-nav button.owl-next {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	background-color: #ccc;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px !important;
+	color: #ffffff !important;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	background-color: #ccc;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+    left:0;
+    color: #ffffff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px !important;
+
+
+
+}
+
+
+.owl-theme .owl-nav [class*=owl-]{
+    background: #ff7300!important;
+	color: black!important;
+   
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #aaaaaa !important;
+    color: #ff7708;
+    text-decoration: none;
+	
+}
+
+
+
+
+
+
