@@ -1,109 +1,93 @@
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+  }
 
+  .grvcdetils {
+    min-height: 108px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .listtable {
+    justify-content: center;
+  }
 
-
-@media only screen and (max-width: 768px){
-    .banner{
-        flex-direction: column;
-    }
-
-    .grvcdetils{min-height: 108px;
-        border-radius: 5px 5px 5px 5px;
-        
-        
-    
-    }
-    .listtable{
-        justify-content: center;
-}
-
-
-    
-    
-    .groomimgheading{
-        font-size: 20px;
-        margin-right:42px;
-    }
-    .vcp{
-        font-size: 16px;
-    }
-    .whychoocnt{
-        flex-direction: column;
-}
-.whychhoscnt{
+  .vcp {
+    font-size: 16px;
+  }
+  .whychoocnt {
+    flex-direction: column;
+  }
+  .whychhoscnt {
     align-items: center;
-}
-.waylist{
+  }
+  .waylist {
     font-size: 19px;
-}
-.whychoosimg{
+  }
+  .whychoosimg {
     width: 332px;
     margin-top: 77px;
-}
-.grvcheading{
+  }
+  .grvcheading {
     font-size: 18px;
-}
+  }
 
-
-.locationtitle{
+  .locationtitle {
     font-size: 18px;
-}
+  }
 
-
-.grvcimgmain{
+  .grvcimgmain {
     flex-direction: column;
     row-gap: 20px;
-}
+  }
 
-
-
-
-.reviwtexst1{
-    margin-top: -106px;
-}
-
-.weareavalabetitle{
+  .weareavalabetitle {
     line-height: 1.3;
     text-align: center;
-    
-}
-.iconsmainbox{
+  }
+  .iconsmainbox {
     grid-template-columns: auto auto;
-}
-.footercntmainbox {
+  }
+  .footercntmainbox {
     flex-direction: column;
-}
-.meanu{
+  }
+  .meanu {
     display: none;
-}
-.harmiconmainbox{
+  }
+  .harmiconmainbox {
     display: block;
+  }
 }
 
-}
-
-
-@media only screen and (max-width: 450px){
-    .logo{
-        background-size: 56px;
-    }
-     .bannerimag{
-        display: none;
-     }
-.table{
+@media only screen and (max-width: 450px) {
+  .logo {
+    background-size: 56px;
+  }
+  .bannerimag {
+    display: none;
+  }
+  .table {
     margin-top: 20px;
     padding: 20px;
-}
-.namser{
+  }
+  .namser {
     flex-direction: column;
     row-gap: 20px;
-
-}
-.listform{
+  }
+  .listform {
     row-gap: 20px;
-
-}
-.iconsmainbox{
+  }
+  .iconsmainbox {
     grid-template-columns: auto;
+  }
 
-}
+  .scervices {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .name {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
 }
