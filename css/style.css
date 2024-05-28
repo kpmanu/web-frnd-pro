@@ -370,34 +370,45 @@ body {
   background-color: rgb(255, 255, 255);
   display: flex;
   column-gap: 50px;
+  justify-content: center;
+  /* position: relative; */
 }
 .grvcimgbox1 {
   flex-grow: 1;
   flex-basis: 50%;
-  min-height: 500px;
-  background-color: #ff7800;
+  
+  background-color: #ffffff;
   display: flex;
-  align-items: flex-end;
-  background-image: url("../imgs/Image\ 4.png");
-  background-repeat: no-repeat;
+  position: relative;
+  
+  flex-direction: column;
+  
+  /* background-image: url("../imgs/Image\ 4.png"); */
+  /* background-repeat: no-repeat;
   border-radius: 68px 68px 68px 68px;
-  background-size: cover;
+  background-size: cover; */
+  
 }
+
+  
+
 .grvcimgbox2 {
   flex-grow: 1;
   flex-basis: 50%;
-  min-height: 500px;
-  background-color: #ff7800;
+
+  background-color: #ffffff;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  /* align-items: flex-end;
   background-image: url("../imgs/Image\ 6.png");
   background-repeat: no-repeat;
   border-radius: 68px 68px 68px 68px;
-  background-size: cover;
+  background-size: cover; */
 }
 .grvcdetils {
+  width: 100%;
   flex-grow: 1;
-
   height: auto;
   background-color: #ff7800;
   border-radius: 5px 100px 5px 5px;
@@ -407,6 +418,12 @@ body {
   min-height: 110px;
   padding: 5px 10px;
   box-sizing: border-box;
+  position: absolute;
+  bottom: 0%;
+  
+}
+.img4{
+  width: 100%;
 }
 .groomimgheading {
   line-height: 0;
