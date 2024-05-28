@@ -90,4 +90,11 @@
     min-width: 100%;
     box-sizing: border-box;
   }
+
+  .grvcimgbox1{
+    min-height: 303px;
+  }
+  .grvcimgbox2{
+    min-height: 343px;
+  }
 }
