@@ -34,6 +34,23 @@ body {
   flex-grow: 1;
 }
 
+.siderlogo{
+  width: 23%;
+  padding: 21px 0% 0px 28px;
+  
+
+}
+.silderimg{
+  width: 100%;
+}
+.aroow{
+  color: #ffffff;
+  font-size: 45px;
+}
+.aroowbox{
+  padding: 21px 0% 0px 34px;
+}
+
 .harmiconmainbox {
   width: 50px;
   height: 50px;
@@ -41,12 +58,33 @@ body {
 }
 
 .harmicon {
-  width: 40px;
-  height: 40px;
+  color: white;
+  font-size: 37px;
 }
+.slidemenu{
+  width: 90%;
+  height:100vh;
+  background-color:#000000;
+  position:fixed;
+  z-index: 999;
+  top:0;
+  left: 100%;
+}
+
+.meanu2 li{list-style: none;
+           }
+
+.meanu2 li a {text-decoration: none;
+              color: #ffffff;
+              line-height: 3;
+              font-family: popinsragural;
+              font-size: 17px;
+            }
+
 .meanu li a {
   text-decoration: none;
   color: #ffffff;
+
 }
 .meanu li {
   float: left;

@@ -26,8 +26,26 @@
                  <li><a href="#"> Help</a></li>      
             </ul>
             <div class="harmiconmainbox" >
-                <img src="imgs/hram icon.png "  class="harmicon">
+                <i class="fa-solid fa-bars harmicon " id="sider"></i>
+
+                <div class="slidemenu">
+                    <div class="aroowbox">
+                        <i class="fa-solid fa-xmark aroow"></i>
+                    </div>
+                    <div class="siderlogo">
+                        <img src="imgs/mainlogo.png " class="silderimg"/>
+                    </div>
+                    <ul class="meanu2">
+                        <li><a href="#">Home</a></li>           
+                        <li><a href="#"> Scervices</a></li>    
+                         <li><a href="#">Foods</a></li>       
+                         <li><a href="#">Accessories</a></li>
+                         <li><a href="#"> Abouts</a></li>    
+                         <li><a href="#"> Help</a></li>      
+                    </ul>
+                </div>
             </div>
+            
         </div>
     </div>
     <div class="banner">
@@ -569,6 +587,21 @@
 
 <script src="js/catdog.js"></script>
 
-
+<script>
+    document.getElementById("sider").addEventListener("click",function()
+        {
+            document.querySelector(".slidemenu").style.left="10%";
+            document.querySelector(".slidemenu").style.transition=".3s all";
+        }
+        
+)
+document.querySelector(".aroow").addEventListener("click",function()
+        {
+            document.querySelector(".slidemenu").style.left="100%";
+            document.querySelector(".slidemenu").style.transition=".3s all";
+        }
+    )
+</script>
         </body>
+
 </html>
